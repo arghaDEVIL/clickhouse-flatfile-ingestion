@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>ClickHouse ↔ Flat File Ingestion Tool</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>ClickHouse ↔ Flat File Ingestion Tool</h1>
+
+    <!-- Source selector -->
+    <div class="config-section">
+      <label for="sourceType">Source Type:</label>
+      <select id="sourceType">
+        <option value="clickhouse">ClickHouse</option>
+        <option value="flatfile">Flat File</option>
+      </select>
+    </div>
+
+    <!-- ClickHouse connection config -->
+    <div id="clickhouse-config" class="config-section">
+      <h2>ClickHouse Connection</h2>
+      <input type="text" id="ch-host" placeholder="Host URL" value="https://ex9nv0h95b.ap-south-1.aws.clickhouse.cloud:8443">
+      <input type="text" id="ch-user" placeholder="User" value="default">
+      <input type="password" id="ch-token" placeholder="JWT Token">
+      <button class="btn primary" onclick="connectClickHouse()">Connect</button>
+    </div>
+
+    <!-- Flat File Upload Section -->
+    <div id="flatfile-upload" class="config-section">
+      <h2>Preview Flat File</h2>
+      <input type="file" id="csvUpload" />
+      <button class="btn secondary" onclick="previewFlatFile()">Preview Flat File</button>
+      <div id="column-preview"></div>
+    </div>
+
+    <div id="map-columns" class="config-section">
+      <h2>Map Columns and Upload to ClickHouse</h2>
+      <input type="text" id="clickhouseTable" placeholder="ClickHouse Table Name" />
+      <div id="mappingContainer"></div>
+      <button id="submitBtn" class="btn primary">Upload to ClickHouse</button>
+    </div>
+
+    <!-- Export Section -->
+    <div id="export-section" class="config-section">
+      <h2>Export ClickHouse Table to CSV</h2>
+      <input type="text" id="exportTableName" placeholder="Enter table name" />
+      <button class="btn secondary" onclick="downloadCSV()">Download CSV</button>
+    </div>
+
+    <div id="preview"></div>
+    <pre id="status"></pre>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/papaparse@5.3.2/papaparse.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

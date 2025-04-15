@@ -1,0 +1,26 @@
+{
+  "name": "clickhouse-flatfile-ingestion",
+  "version": "1.0.0",
+  "description": "A simple web-based data ingestion tool that enables bidirectional data movement between a ClickHouse database and local flat files (CSV). It includes a basic user interface, supports JWT authentication for ClickHouse, and lets users select columns for ingestion.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node backend/app.js",
+    "dev": "nodemon backend/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@clickhouse/client": "^1.11.0",
+    "body-parser": "^2.2.0",
+    "clickhouse": "^2.6.0",
+    "csv-parser": "^3.2.0",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "express-fileupload": "^1.5.1",
+    "jsonwebtoken": "^9.0.2",
+    "nodemon": "^3.1.9",
+    "papaparse": "^5.5.2"
+  }
+}

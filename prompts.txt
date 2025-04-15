@@ -1,0 +1,113 @@
+Basic Usage
+
+"How do I upload a CSV file to ClickHouse using the web tool?"
+
+"How can I export data from a ClickHouse table to a CSV file?"
+
+"What are the steps to connect to ClickHouse with a JWT token?"
+
+CSV File Handling
+
+"What should I do if my CSV file doesn't match the table schema?"
+
+"How can I preview the CSV file before uploading it to ClickHouse?"
+
+"What happens if I try to upload a CSV with missing columns?"
+
+ClickHouse Operations
+
+"How do I fetch a list of columns from a specific ClickHouse table?"
+
+"What query syntax should I use to fetch data from a ClickHouse table?"
+
+"How can I test the connection to my ClickHouse instance?"
+
+"How do I ensure that my data is inserted into the correct ClickHouse table?"
+
+Error Handling
+
+"What should I do if the upload fails due to schema mismatch?"
+
+"How do I troubleshoot an error related to missing JWT token?"
+
+"What can I do if the export to CSV fails?"
+
+"Why am I receiving a 500 Internal Server Error during the upload process?"
+
+Authentication & Authorization
+
+"How do I authenticate with ClickHouse using JWT tokens?"
+
+"What are the different authentication methods for ClickHouse?"
+
+"How can I secure my ClickHouse instance with a password?"
+
+File Format Handling
+
+"What file formats are supported for uploading to ClickHouse?"
+
+"Can I upload non-CSV files (e.g., JSON or TSV) to ClickHouse?"
+
+"What happens if I upload an empty CSV file?"
+
+UI Features
+
+"How do I map CSV columns to ClickHouse table columns in the UI?"
+
+"What are the requirements for uploading a CSV file with multiple rows?"
+
+"How do I download a ClickHouse table as a CSV file using the UI?"
+
+Data Types & Schema
+
+"What happens if the CSV data type doesn't match the ClickHouse column type?"
+
+"How do I check the data types of columns in a ClickHouse table?"
+
+"Can I modify the ClickHouse schema after uploading data?"
+
+Data Validation
+
+"How can I validate that the CSV data conforms to the required schema before uploading?"
+
+"What checks are performed to ensure data integrity when inserting rows into ClickHouse?"
+
+ClickHouse-Specific Queries
+
+"How do I run a simple query in ClickHouse using the web tool?"
+
+"What are the limitations on query size or complexity when exporting data from ClickHouse?"
+
+Performance Optimization
+
+"What are best practices for optimizing large file uploads to ClickHouse?"
+
+"How can I improve the speed of exporting large ClickHouse tables to CSV?"
+
+General Troubleshooting
+
+"What should I check if the data doesn’t appear in ClickHouse after an upload?"
+
+"How can I clear any incorrect or failed data uploads in ClickHouse?"
+
+"What steps should I follow if the web tool shows 'Connection Failed'?"
+
+Advanced Operations
+
+"How do I schedule regular exports of data from ClickHouse to CSV?"
+
+"How can I automatically upload CSV files to ClickHouse using a script?"
+
+"Can I use ClickHouse with external tools for automated data ingestion?"
+
+Security & Best Practices
+
+"What security measures should I take when using JWT tokens for authentication?"
+
+"How do I ensure that sensitive data in CSV files is encrypted during upload?"
+
+Testing & Debugging
+
+"How can I debug issues with the file upload process?"
+
+"What should I look for in the logs if my query fails in ClickHouse?"

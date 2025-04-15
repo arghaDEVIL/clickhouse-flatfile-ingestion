@@ -1,0 +1,6 @@
+user_id,name,email,age,country,signup_date
+1001,Alice Smith,alice@example.com,29,USA,2023-01-15
+1002,Bob Johnson,bob@example.co.uk,35,UK,2022-11-02
+1003,Chen Wei,chen.wei@example.cn,41,China,2023-03-19
+1004,Fatima Khan,fatima.k@example.in,27,India,2022-12-30
+1005,Liam O'Brien,liam.obrien@example.ie,31,Ireland,2023-04-10
