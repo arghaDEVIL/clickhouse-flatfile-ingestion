@@ -9,9 +9,11 @@ A simple web-based data ingestion tool that enables bidirectional data movement 
 - 🔐 Connect to ClickHouse using host, user, and JWT token
 - 📤 Ingest flat file (CSV) into ClickHouse
 - 📥 Preview and ingest data from ClickHouse to flat file (upcoming)
-- ✅ UI to select source type and columns
+- ✅ UI to select source type, tables, and columns
+- 🔗 Join multiple ClickHouse tables for data ingestion
 - 📄 Upload & preview CSV files
 - 🧮 Displays number of ingested records
+- 🚀 Progress bar for ingestion/export process
 
 ---
 
