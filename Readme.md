@@ -2,6 +2,7 @@
 
 A simple web-based data ingestion tool that enables bidirectional data movement between a ClickHouse database and local flat files (CSV). It includes a basic user interface, supports JWT authentication for ClickHouse, and lets users select columns for ingestion.
 
+## Author - arghaDEVIL(Arghadeep Bosu)
 ---
 
 ## 📦 Features
@@ -19,15 +20,16 @@ A simple web-based data ingestion tool that enables bidirectional data movement 
 
 ## 🛠️ Tech Stack
 
-- **Backend**: Node.js (Express)
+
 - **Frontend**: HTML, CSS, JavaScript
+- **Backend**: Node.js (Express)
 - **Database Client**: ClickHouse client for Node.js
 - **File I/O**: `csv-parser`, `express-fileupload`
 - **Authentication**: JWT passed via ClickHouse connection
 
 ---
 
-## 🚀 Getting Started
+## 🚀 Here's a guide to get started
 
 ### 🔧 Prerequisites
 
@@ -37,9 +39,9 @@ A simple web-based data ingestion tool that enables bidirectional data movement 
 
 ---
 
-### 🧩 Setup Instructions
+### 🧩 Below are the setup instructions
 
 ```bash
-git clone https://github.com/yourusername/clickhouse-flatfile-ingestion.git
+git clone https://github.com/arghaDEVIL/clickhouse-flatfile-ingestion.git
 cd clickhouse-flatfile-ingestion
 npm install
